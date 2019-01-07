@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.musterilerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.müsterilerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.urunlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +48,8 @@
             // musterilerToolStripMenuItem
             // 
             this.musterilerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.müsterilerToolStripMenuItem});
+            this.müsterilerToolStripMenuItem,
+            this.urunlerToolStripMenuItem});
             this.musterilerToolStripMenuItem.Name = "musterilerToolStripMenuItem";
             this.musterilerToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.musterilerToolStripMenuItem.Text = "Seçenekler";
@@ -58,6 +60,13 @@
             this.müsterilerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.müsterilerToolStripMenuItem.Text = "Müsteriler";
             this.müsterilerToolStripMenuItem.Click += new System.EventHandler(this.müsterilerToolStripMenuItem_Click);
+            // 
+            // urunlerToolStripMenuItem
+            // 
+            this.urunlerToolStripMenuItem.Name = "urunlerToolStripMenuItem";
+            this.urunlerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.urunlerToolStripMenuItem.Text = "Ürünler";
+            this.urunlerToolStripMenuItem.Click += new System.EventHandler(this.urunlerToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -81,5 +90,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem musterilerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem müsterilerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem urunlerToolStripMenuItem;
     }
 }

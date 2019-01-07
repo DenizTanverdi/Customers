@@ -23,5 +23,13 @@ namespace Customer
             customer.MdiParent = this;
             customer.Show();
         }
+
+        private void urunlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Urunler urunler = new Urunler();
+            urunler.MdiParent = this;
+            urunler.Show();
+
+        }
     }
 }
